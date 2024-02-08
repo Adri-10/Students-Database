@@ -1,0 +1,48 @@
+.data-list {
+    text-align: center;
+}
+body{
+    background:rgb(157, 138, 180);
+    }
+#frm{
+border:solid rgb(206, 195, 236) 1px;
+width:20%;
+border-radius:5px;
+margin:100px auto;
+background:rgb(202, 209, 231);
+padding:50px;
+}
+#btn{
+background-color: #0c0363; /* Change to your desired background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding to adjust the button size */
+    border: none; /* Remove the border if desired */
+    cursor: pointer; /* Add a pointer cursor for interaction */
+}
+#btn:hover {
+background-color: #5487e6; /* Change to the hover color you prefer */
+ /* You can also adjust other styles on hover if needed */
+}
+.remove-form {
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #cce5ff;
+}

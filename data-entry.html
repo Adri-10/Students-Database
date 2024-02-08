@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h2><center><font color=black size=6pt>Login success!!! Welcome to New world </font></h2>
+    <title>Data entry</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 20px;">
+        <a href="view.php" class="view-button">View Data</a>
+        </div>';
+    <div id="frm">
+        <form action="store-data.php" method="post">
+            <p>
+                <label>Name:</label>
+                <input type="text" name="name" required>
+            </p>
+            <p>
+                <label>Phone number:</label>
+                <input type="text" name="phoneNo" required>
+            </p>
+            <p>
+                <label>Id:</label>
+                <input type="number" name="id" required>
+            </p>
+            <p>
+                <label for="course">Course:</label>
+                <select name="course" required>
+                    <option value="" selected hidden>Select Course</option>
+                    <option value="CSE103">CSE103</option>
+                    <option value="CSE302">CSE302</option>
+                    <option value="ICE305">ICE305</option>
+                </select>
+            </p>
+            <p>
+                <label for="Gender">Gender:</label>
+                <input type="radio" id="male" name="gender" value="Male" required> Male
+                <input type="radio" id="female" name="gender" value="Female"> Female
+            </p>
+            <p>
+                <button type="submit" name="submit">Submit Data</button>
+            </p>
+        </form>
+
+    </div>
+</body>
+</html>
